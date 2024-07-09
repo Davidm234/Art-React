@@ -1,0 +1,22 @@
+.art-card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.art-card:hover {
+  transform: scale(1.05);
+}
+
+.art-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.loading {
+  color: white;
+  font-size: 1.2em;
+}
